@@ -1,0 +1,96 @@
+@import url(estilos.css);
+nav{
+    background: #335;
+    /*alto de la barra de navegacion*/
+    height: 80px;
+    width: 100%;
+}
+
+.enlace{
+    position: absolute;
+    padding: 25px 50px;
+}
+
+.logo{
+    position: absolute;
+    width: 150px;
+    top: -15px;
+    left: -18px;
+    margin: 10px;
+}
+
+nav ul{
+    /*nav a la izquierda*/
+    float:right;
+    margin-right: 25px;
+}
+
+nav ul li{
+    /*ponemos en el menu en bloques */
+    display: inline-block;
+    /*interlineado*/
+    line-height: 80px;
+    /*margen para separar el menu*/
+    margin: 0px 8px;
+}
+
+nav ul li a{
+    /*color de texto*/
+    color: aquamarine;
+    /*tamaño de texto*/
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid #335443;
+}
+
+/*hover */
+nav.active, li a:hover{
+    background-color: #335443;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 20px;
+    color: #335443;
+    /*elemento a la derecha*/
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    /*ocultamos el elemento*/
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+
+.enlace{
+    /*acomodamos el elemento*/
+    padding-left: 20px;
+}
+
+nav ul li a{
+    /*acomodamos el tamaño de la tipografia */
+    font-size: 20px;
+}
+
+.carrusel-inner{
+    height: 7vh;
+}
+
+#cuarto{
+background-color: #81b49a;
+   
+}
+
+.imagen{
+    padding-left: 80vh;
+   
+}
+.titulo{
+    padding-left: 74vh;
+}
